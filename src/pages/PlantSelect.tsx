@@ -147,7 +147,7 @@ export function PlantSelect(){
               data={item}
             />
           )}
-          showsHorizontalScrollIndicator={false}
+          showsVerticalScrollIndicator={false}
           numColumns={2}
           onEndReachedThreshold={0.1}
           onEndReached={ ({ distanceFromEnd }) => 
@@ -191,7 +191,7 @@ const styles = StyleSheet.create({
     height: 40,
     justifyContent: 'center',
     paddingBottom: 5,
-    marginLeft: 32,
+    paddingHorizontal: 35,
     marginVertical: 32
   },
   plants: {
